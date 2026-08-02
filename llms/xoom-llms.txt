@@ -1,0 +1,27 @@
+# Xoom
+
+> Xoom is PayPal's international money transfer (remittance) service, operating since 2001. It lets consumers send money to bank accounts, debit cards, mobile wallets, UPI, and PIX, send cash for pickup or delivery, and reload mobile phones in countries around the world. Xoom is a consumer service and does not publish a public developer API, OpenAPI specification, or developer portal on the xoom.com domain.
+
+Xoom money transfer services in the U.S. are provided by PayPal, Inc., a licensed money transmitter regulated by state and federal U.S. agencies; in the UK/EEA the service is provided by PayPal (Europe) S.a r.l. et Cie, S.C.A., regulated by the Luxembourg CSSF.
+
+## Website
+
+- [Xoom](https://www.xoom.com): Send money abroad to bank accounts, debit cards, mobile wallets, UPI, and PIX; cash pickup and phone reloads
+- [Help Center](https://help.xoom.com/s/?language=en_US): Xoom customer support and FAQs
+- [Fees and rates](https://www.xoom.com/en-us/usd/send-money/transfer/select-country): Up-front fees and exchange rates by destination country
+- [Security and privacy](https://www.xoom.com/online-security-and-privacy-at-xoom): Encryption, fraud monitoring, and account protection
+- [User agreement](https://www.xoom.com/user-agreement): Terms of service
+- [Privacy](https://www.xoom.com/privacy): Privacy statement
+- [Legal agreements](https://www.xoom.com/legal): Policy updates and regulatory disclosures
+- [State licensing](https://www.xoom.com/state-licensing): U.S. money transmitter licenses (redirects to PayPal's licenses page)
+
+## Catalog artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/xoom/refs/heads/main/apis.yml): Machine-readable profile of Xoom in the API Evangelist network
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/xoom/refs/heads/main/security/xoom-domain-security.yml): Probed TLS/HSTS/DNSSEC/SPF/DMARC posture for xoom.com
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/xoom/refs/heads/main/conformance/xoom-conformance.yml): Regulatory and standards posture
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/xoom/refs/heads/main/well-known/xoom-well-known.yml): /.well-known discovery probe results
+
+## Optional
+
+- [PayPal Developer](https://developer.paypal.com): Xoom's parent company PayPal publishes its developer APIs here; Xoom itself exposes no public API

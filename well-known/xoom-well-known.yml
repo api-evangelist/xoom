@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Xoom website + API hosts
+hosts:
+- host: https://www.xoom.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: No .well-known discovery documents are published on the reachable Xoom hosts.
+  api.xoom.com resolves but returns 404 at the root; developer.xoom.com does not
+  resolve. Xoom is a PayPal service and PayPal publishes its security.txt centrally
+  (https://www.paypal.com/.well-known/security.txt redirects to
+  https://www.paypalobjects.com/.well-known/security.txt), not on the xoom.com domain.

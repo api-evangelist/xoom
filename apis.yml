@@ -1,8 +1,25 @@
 aid: xoom
 name: Xoom
-description: 'Xoom is a company surfaced as a portfolio company of craft-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: Xoom is PayPal's international money transfer (remittance) service,
+  operating since 2001. Consumers use Xoom to send money to bank accounts, debit
+  cards, mobile wallets, UPI, and PIX, send cash for pickup or delivery, and reload
+  mobile phones in countries around the world, with up-front fees and exchange
+  rates. U.S. transfers are provided by PayPal, Inc., a licensed money transmitter;
+  UK/EEA service is provided by PayPal (Europe) S.a r.l., regulated by the
+  Luxembourg CSSF. Xoom is a consumer service and publishes no public developer API
+  on the xoom.com domain.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.paypalobjects.com/xoom/static/img/open-graph-logo/xoom-og-en-US.png
 url: https://raw.githubusercontent.com/api-evangelist/xoom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Money Transfer
+- Remittances
+- Cross-Border Payments
+- Payments
+- PayPal
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://xoom.com
+  url: https://www.xoom.com
+- type: Support
+  url: https://help.xoom.com/s/?language=en_US
+- type: Pricing
+  url: https://www.xoom.com/en-us/usd/send-money/transfer/select-country
+- type: Login
+  url: https://www.xoom.com/sign-in
+- type: TermsOfService
+  url: https://www.xoom.com/user-agreement
+- type: PrivacyPolicy
+  url: https://www.xoom.com/privacy
+- type: Compliance
+  url: https://www.xoom.com/state-licensing
+- type: Conformance
+  url: conformance/xoom-conformance.yml
+- type: LLMsTxt
+  url: llms/xoom-llms.txt
+- type: DomainSecurity
+  url: security/xoom-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

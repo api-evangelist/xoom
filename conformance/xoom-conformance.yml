@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.xoom.com/online-security-and-privacy-at-xoom
+docs:
+  security: https://www.xoom.com/online-security-and-privacy-at-xoom
+  legal: https://www.xoom.com/legal
+  licenses: https://www.xoom.com/state-licensing
+standards:
+- id: us-money-transmitter-licenses
+  conforms: true
+  evidence: Xoom money transfers in the U.S. are provided by PayPal, Inc., "a licensed
+    provider of money transfer services" regulated by both state and federal U.S.
+    government agencies (stated on the Xoom online-security page);
+    xoom.com/state-licensing redirects to PayPal's published state licenses page
+    (https://www.paypal.com/us/webapps/mpp/licenses).
+- id: eu-credit-institution-cssf
+  conforms: true
+  evidence: For UK/EEA residents the service is provided by PayPal (Europe) S.a r.l.
+    et Cie, S.C.A., a Luxembourg credit institution supervised by the Commission de
+    Surveillance du Secteur Financier (CSSF), and deemed authorised and regulated by
+    the UK Financial Conduct Authority under the Temporary Permissions Regime
+    (published on https://www.xoom.com/legal).
+- id: tls-in-transit
+  conforms: true
+  evidence: Site served over HTTPS with TLS 1.3 and HSTS max-age 31536000 (probed
+    2026-07-21); the security page states the entire xoom.com site, including
+    logged-out pages, is served via encrypted pages.
+- id: pci-dss
+  conforms: unverified
+  evidence: Xoom accepts card-funded transfers but publishes no PCI DSS attestation
+    on its own pages; not asserted.
+notes: Xoom is PayPal's consumer international remittance service (bank deposits,
+  debit-card deposits, mobile wallets, UPI, PIX, cash pickup, and phone reloads).
+  Regulatory posture is carried by PayPal, Inc. (U.S.) and PayPal (Europe) S.a r.l.
+  (EEA/UK); Xoom publishes no standalone certifications (SOC 2 / ISO 27001) or trust
+  center on the xoom.com domain.
