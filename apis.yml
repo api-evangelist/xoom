@@ -8,6 +8,17 @@ description: Xoom is PayPal's international money transfer (remittance) service,
   UK/EEA service is provided by PayPal (Europe) S.a r.l., regulated by the
   Luxembourg CSSF. Xoom is a consumer service and publishes no public developer API
   on the xoom.com domain.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
