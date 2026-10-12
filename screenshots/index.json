@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "xoom",
+    "captured_at": "2026-10-11T194713",
+    "source_url": "https://xoom.com",
+    "source_type": "root-domain",
+    "file": "xoom-2026-10-11T194713.png",
+    "bytes": 401292,
+    "capture": "playwright-local"
+  }
+]
